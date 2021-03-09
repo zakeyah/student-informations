@@ -1,0 +1,43 @@
+body{
+    background-image:url(./image/thumbnail.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:100% 100%;
+  color: #eee;
+}
+#header{
+    width: 100%;
+    border: #eee 2px solid;
+    padding: 40px;
+}
+header h1 {
+    text-align: center;
+}
+header ul{
+    float: right;
+}
+header ul li {
+   display: inline;
+   padding: 40px;
+}
+header ul li a {
+    color: #eee;
+}
+#table-div{
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+    background-color: rgba(96, 96, 96,0.6)
+}
+#table-div table, tr, td {
+    border: 2px #eee solid ;
+    padding: 10px;
+}
+#form {
+    float: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: rgba(96, 96, 96,0.6)
+}
+
